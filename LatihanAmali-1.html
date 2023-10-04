@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        *{box-sizing: border-box;}
+        
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #ff82cf;
+        }
+        
+        .topnav a {
+          float: left;
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ff5ecf;
+          color: rgb(255, 255, 255);
+        }
+</style>    
+</head>
+<body style="background-color:rgb(245, 165, 189);">
+<center>
+    <form target="_blank">
+        <div class="topnav">
+            <a class="active" href="LatihanAmali-1.html">AMALI 1</a>
+            <a href="LatihanAmali-2.html">AMALI 2</a>
+            <a href="LatihanAmali-3.html">AMALI 3</a>
+            <a href="LatihanAmali-4.html">AMALI 4</a>
+        </div>     
+    <table border="1" style="background-color: rgb(243, 182, 181);">
+        <tr>
+            <th colspan="2" style="background-color: rgb(221, 170, 167);"><h1>User Form</h1></th>
+        </tr>
+        <tr>
+            <th>Enter Name</th>
+            <td><input type="name" id="nama" name="namaa" placeholder="Enter Name" size="30" required></td>
+        </tr>
+
+        <tr>
+            <th>Enter Password</th>
+            <td><input type="password" id="PASSWORD" name="password" placeholder="Enter Password" minlength="4" maxlength="20" size="30" required></td>
+        </tr>
+
+        <tr>
+            <th>Enter Address</th>
+            <td><textarea id="alamat" name="alamatt" rows="5" cols="30" placeholder="Enter Address" required></textarea></td>
+        </tr> 
+
+        <tr>
+            <th>Select Game</th>
+            <td><input type="checkbox" name="GAME" value="HOCKEY" id="hockey1">
+                <label for="hockey1">Hockey</label><br>
+                <input type="checkbox" name="GAME" value="FOOTBALL" id="football1">
+                <label for="football1">Football</label><br>
+                <input type="checkbox" name="GAME" value="BADMINTON" id="badminton1">
+                <label for="badminton1">Badminton</label><br>
+                <input type="checkbox" name="GAME" value="CRICKET" id="cricket1">
+                <label for="cricket1">Cricket</label><br>
+                <input type="checkbox" name="GAME" value="VOLLEYBALL" id="volleyball1">
+                <label for="volleyball1">Volleyball</label><br>
+        </tr>
+
+        <tr>
+            <th>Gender</th>
+            <td ><input type="radio" name="GENDER" value="MALE"    id="male1">
+                 <label for="male1">Male</label> 
+                 <input type="radio" name="GENDER" value="FEMALE" id="female1">
+                 <label for="female1">Female</label></td> 
+        </tr>
+
+        <tr>
+            <th>Select Ur Age</th>
+            <td><select name="select ur age" id="Select Ur Age">
+                <option value="age" name="AGE" id="agee" selected disabled>Select</option>
+                <option value="0-7">0-7</option>
+                <option value="8-12">8-12</option>
+                <option value="13-18">13-18</option>
+                <option value="19-30">19-30</option>
+                <option value="31-49">31-49</option>
+                <option value="50+">50+</option></td>
+        </tr>
+
+        <tr>
+            <th colspan="2"><input type="file" name="kos1" value="file">
+                <label for="FILE "></label><br></th>
+        </tr>        
+                
+        <tr>
+            <th style="text-align:center;" colspan="2">
+            <input type="submit" value="Click Me" onclick="alert('TERIMA KASIH')">   
+            <input type="reset"  value="Reset">
+            <input type="submit" value="Submit Form" onclick="alert('TERIMA KASIH')"></th>
+        </tr>
+    </table>
+    </form>
+</center>
+</body>
+</html>
