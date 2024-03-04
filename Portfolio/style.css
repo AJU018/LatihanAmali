@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(bla.jpg);
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+}
+
+nav  a{    
+    width: 100px;
+    line-height: 36px;
+    margin: 8px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+}
+
+a:hover, a:active {
+    background-color: #ffffff;
+    color: black;
+}
+
+#index{
+    height: 800px;
+}
+
+#about{
+    height: 600px;
+    background-color: silver;
+}
+
+.logo{
+    font-size: 20px;
+    color: white;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-left: 50px;
+}
+
+.intro p{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+
+.about p{
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 600px;
+}
+
+.kotak{
+    background-image: url(Safeimagekit-resized-img.png);
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    position: relative;
+    bottom: 535px;
+    left: 20px;
+}
+
+.maklumat p, li{
+    font-size: 20px;
+    width: 70%;
+    position: relative;
+    left: 400px;
+    bottom: 840px;
+}
+
+ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* footer { 
+    position:fixed;
+    left: 0; 
+    bottom: 0; 
+    line-height: 50px;
+    width: 100%; 
+    height: 50px;
+    background-color: #944E63; 
+    color: #ffffff; 
+    text-align: center; 
+ } */

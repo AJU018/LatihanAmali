@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(bla.jpg);
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+}
+
+nav  a{    
+    width: 100px;
+    line-height: 36px;
+    margin: 8px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+}
+
+a:hover, a:active {
+    background-color: #ffffff;
+    color: black;
+}
+
+.tajuk{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.semua{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.kotak1{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ffffff ;
+    margin-right: 10px;
+}
+
+.kotak2{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ffffff ;
+    margin-right: 10px;
+}
+
+.kotak3{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ffffff ;
+}
+
+.petak{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.petak1{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ffffff ;
+    margin-right: 10px;
+}
+
+.petak2{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ffffff ;
+    margin-right: 10px;
+}
+
+.petak3{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ffffff ;
+}
